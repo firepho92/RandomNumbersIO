@@ -37,7 +37,7 @@ public class StatisticMethods {
     
     public double median(){
         double median, add;
-        int len, numerator = 0;
+        int len;
         Object arr[] = this.numbers.toArray();
         Arrays.sort(arr);
         len = arr.length;

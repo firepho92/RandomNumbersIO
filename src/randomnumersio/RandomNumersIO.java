@@ -34,8 +34,6 @@ public class RandomNumersIO {
         
         numeros = rni.getNumeros();
         
-        System.out.println("\n");
-        
         for(Object numero : numeros){
             System.out.println(numero);
         }
